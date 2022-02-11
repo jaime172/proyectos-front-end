@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- custom  css file  link -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Agencia de viajes</title>
+    <!-- meta etiquetas de seo -->
+    <meta name="description" content="travels for yours senses and your adrenaline">
+    <link rel="canonica" href="https://jaime172.github.io/proyecto-front-end/agencia-de-viajes">
+    <link rel="favicon" href="https://jaime172.github.io/proyecto-front-end/agencia-de-viajes/assets/imagenes/pexels-erik-mclean-4061478 (1).png" >
+    <link rel="apple-touch-icon" href="https://jaime172.github.io/proyecto-front-end/agencia-de-viajes/assets/imagenes/pexels-erik-mclean-4061478 (1).png">
+    <meta name="theme-color" content="#ee3623">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta property="og:tilte" name="twitter:title" content="agencia de viajes">
+    <meta property="og:image" name="twitter:image" content="https://jaime172.github.io/proyecto-front-end/agencia-de-viajes/assets/imagenes/pexels-erik-mclean-4061478 (1).png">
+    <meta property="twitter:url" name="twitter:url" content="https://jaime172.github.io/proyecto-front-end/agencia-de-viajes">
+    <meta property="twitter:description" name="twitter:description" content="travels for yours senses and your adrenaline">
+</head>
+<body>
+    <!-- hader section start -->
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li style="--1:1"><a href="#home">Home</a></li>
+                    <li style="--1:2"><a href="#feacture">feacture</a></li>
+                    <li style="--1:3"><a href="#about">about</a></li>
+                    <li style="--1:4"><a href="#gallery">gallery</a></li>
+                    <li style="--1:5"><a href="#review">review</a></li>
+                    <li style="--1:6"><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu"><i class="fas fa-bars"></i></div>
+        </header>
+
+     <!-- hader section end -->
+
+     <!-- home section start -->
+        <section class="home" id="home">
+            <div class="video-container">
+               <video src="assets/caminata-ovg.ogv" autoplay muted loop></video>
+               
+            </div>
+
+            <div class="content">
+                <h2>Explore.</h2>
+                <h3>It time to travels</h3>
+
+                <div class="form-container">
+                    <form action="">
+                        <h3>Search your destination</h3>
+
+                        <span>Location</span>
+                        <input type="text"  name="name" placeholder="Place you want to visit" title="Nombre solo acepta  letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+
+                        <span>Guest members</span>
+                        <input type="number" placeholder="How many people" title="Solo acepta numero" pattern="0-9" required>
+
+                        <span>Arrivals</span>
+                        <input type="date">
+
+                        <span>Leaving</span>
+                        <input type="date">
+
+                        <input class="btn" type="submit" value="search">
+                    </form>
+                </div>
+            </div>
+        </section>
+     <!-- home section end -->
+
+     <!-- section feacture start -->
+        <section class="feacture" id="feacture">
+            <h1 class="heading">Popular places</h1>
+            <h3 class="title">See the most featured places</h3>
+
+            <div class="card-container">
+
+               <div class="card">
+                        <img src="assets/imagenes/man-webp.webp" alt="hombre en lancha">
+                    <div class="info">
+                        <h3>Tour 1</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem cum blanditiis</p>
+                        <a href="#"><button class="btn">Visit now!</button></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/imagenes/person-g7f7214cd6_1280.webp" alt="persona en la ciudad">
+                    <div class="info">
+                        <h3>Tour 2</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem cum blanditiis</p>
+                        <a href="#"><button class="btn">Visit now!</button></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/imagenes/water-gbda122da7_1920 (1).webp" alt="hombre frente a cascada">
+                    <div class="info">
+                        <h3>Tour 3</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem cum blanditiis</p>
+                        <a href="#"><button class="btn">Visit now!</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- section feacture end -->
+
+     <!-- section about start -->
+        <settion class="about" id="about">
+            <h2 class="heading">about us</h2>
+            <h3 class="title">Explore the word width us</h3>
+
+            <div class="row">
+                <div class="image">
+                    <img src="assets/São Paulo-rafiki.svg" alt="fonto frente al puente de san francisco">
+                </div>
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione labore ex, deleniti totam et sequi autem, </p>
+                    <a href="#"><button class="btn">read more</button></a>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-map"></i>
+                    <h3>travel guide</h3>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-users"></i>
+                    <h3>24 x 7 services</h3>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>hotel booking</h3>
+                </div>
+            </div>
+        </settion>
+     <!-- section about end -->
+
+     <!-- section gallery start -->
+        <section class="gallery" id="gallery">
+            <h2 class="heading">our gallery</h2>
+            <h3 class="tilte">explore the most visited places</h3>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/imagenes/extreme-sports-g0b0a17599_1280.webp" alt="rapel en las rocas">
+                    </div>
+                    <div class="content">
+                        <h3>tour 1</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque velit ipsum, reprehenderit maxime eum sunt.</p>
+                        <a href="#"><button class="btn">explore!</button></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/imagenes/camp-g6c6522b4d_1280.jpg" alt="campamento en el bosque">
+                    </div>
+                    <div class="content">
+                        <h3>tour 2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque velit ipsum, reprehenderit maxime eum sunt.</p>
+                        <a href="#"><button class="btn">explore!</button></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/imagenes/the-ride-g7fdfd3d24_1280.jpg" alt="cabalgando en el campo">
+                    </div>
+                    <div class="content">
+                        <h3>tour 3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque velit ipsum, reprehenderit maxime eum sunt.</p>
+                        <a href="#"><button class="btn">explore!</button></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/imagenes/camp-g6c6522b4d_1280.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>tour 4</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque velit ipsum, reprehenderit maxime eum sunt.</p>
+                        <a href="#"><button class="btn">explore!</button></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/imagenes/parachute-gc08a4a69f_1280.webp" alt="parachute en el mar">
+                    </div>
+                    <div class="content">
+                        <h3>tour 5</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque velit ipsum, reprehenderit maxime eum sunt.</p>
+                        <a href="#"><button class="btn">explore!</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <!-- section gallery end-->
+
+     <!-- section review start -->
+        <section class="review" id="review">
+            <h2>customers review</h2>
+            <h3 class="title">what peoples says about us</h3>
+
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, saepe fugit expedita inventore assumenda hic ducimus nam possimus vitae </p>
+                    <div class="user">
+                        <img src="assets/imagenes/review-1.jpg" alt="">
+                        <div class="info">
+                            <h3>someones's name</h3>
+                            <span>jan 5, 2022</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, saepe fugit expedita inventore assumenda hic ducimus nam possimus vitae </p>
+                    <div class="user">
+                        <img src="assets/imagenes/revierw-2.jpg" alt="">
+                        <div class="info">
+                            <h3>someones's name</h3>
+                            <span>jan 5, 2022</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, saepe fugit expedita inventore assumenda hic ducimus nam possimus vitae </p>
+                    <div class="user">
+                        <img src="assets/imagenes/review-3-light.jpg" alt="">
+                        <div class="info">
+                            <h3>someones's name</h3>
+                            <span>jan 5, 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <!-- section review end -->
+
+     <!-- section newletter start -->
+        <section class="newletter" id="newletter">
+            <div class="box">
+               <h2>sing up for discount</h2>
+               <p>get in touch with us and get latest updates</p>
+
+               <form action="">
+                   <input type="email" placeholder="enter your email">
+                   <input type="submit" class="btn" value="send">
+               </form>
+            </div>
+        </section>
+     <!-- section newletter end -->
+
+     <!-- section contact start -->
+        <section class="contact" id="contact">
+            <h2 class="heading">contact us</h2>
+            <h3 class="title">book your tickets now</h3>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="first name"   title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                    <input type="text" placeholder="last name"   title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email"  title="Email incorrecto"
+                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                    <input type="phone" placeholder="phone">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="message" class="btn">
+
+            </form>
+        </section>
+     <!-- section contact end -->
+
+     <!-- section footer start -->
+        <footer class="footer">
+            <div class="box">
+                <h3>explore!</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime laborum dolorum quos aspernatur</p>
+            </div>
+
+            <div class="box">
+                <h3>share</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+            </div>
+
+            <div class="box">
+                <h3>links</h3>
+                <a href="#home">home</a>
+                <a href="#feature">feature</a>
+                <a href="#about">about</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+        </footer>
+      <!-- section footer end -->
+
+      <!-- section credito -->
+
+      <h2 class="developer">Developed by <span>JAIME 172</span> all right reserved &copy; </h2>
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+</html>
